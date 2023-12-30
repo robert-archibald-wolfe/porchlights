@@ -1,0 +1,62 @@
+*
+
+.subckt porchlights
+
+
+.model __D1 D
++           fv_max=3.3
++           id_max=0.2
+.model __D4 D
+.model __D3 D
+D21 __D21
+R21 Net-_D21-C_ Net-_R1-Pad2_ 200
+D20 __D20
+D22 __D22
+D23 __D23
+R25 Net-_D25-C_ Net-_R1-Pad2_ 200
+R24 Net-_D24-C_ Net-_R1-Pad2_ 200
+D25 __D25
+D24 __D24
+R22 Net-_D22-C_ Net-_R1-Pad2_ 200
+R23 Net-_D23-C_ Net-_R1-Pad2_ 200
+R4 Net-_D4-C_ Net-_R1-Pad2_ 200
+R3 Net-_D3-C_ Net-_R1-Pad2_ 200
+R1 Net-_D1-C_ Net-_R1-Pad2_ 200
+R2 Net-_D2-C_ Net-_R1-Pad2_ 200
+D2 Net-_D2-C_ +12V fv_max=3.3 id_max=0.2
+D1 Net-_D1-C_ +12V __D1
+D4 Net-_D4-C_ +12V __D4
+D3 Net-_D3-C_ +12V __D3
+D7 __D7
+R8 Net-_D8-C_ Net-_R1-Pad2_ 200
+D8 __D8
+D9 __D9
+R7 Net-_D7-C_ Net-_R1-Pad2_ 200
+R9 Net-_D9-C_ Net-_R1-Pad2_ 200
+R15 Net-_D15-C_ Net-_R1-Pad2_ 200
+D18 __D18
+D17 __D17
+D15 __D15
+D16 __D16
+R17 Net-_D17-C_ Net-_R1-Pad2_ 200
+R16 Net-_D16-C_ Net-_R1-Pad2_ 200
+R20 Net-_D20-C_ Net-_R1-Pad2_ 200
+R19 Net-_D19-C_ Net-_R1-Pad2_ 200
+D19 __D19
+R18 Net-_D18-C_ Net-_R1-Pad2_ 200
+D12 __D12
+D10 __D10
+D11 __D11
+R14 Net-_D14-C_ Net-_R1-Pad2_ 200
+D13 __D13
+R13 Net-_D13-C_ Net-_R1-Pad2_ 200
+D14 __D14
+R11 Net-_D11-C_ Net-_R1-Pad2_ 200
+R12 Net-_D12-C_ Net-_R1-Pad2_ 200
+R10 Net-_D10-C_ Net-_R1-Pad2_ 200
+D6 __D6
+R6 Net-_D6-C_ Net-_R1-Pad2_ 200
+R5 Net-_D5-C_ Net-_R1-Pad2_ 200
+D5 __D5
+
+.ends

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "porchlights")(type "KiCad")(uri "${KIPRJMOD}/porchlights.kicad_sym")(options "")(descr ""))
+  (lib (name "whiteled")(type "KiCad")(uri "${KIPRJMOD}/whiteled.kicad_sym")(options "")(descr ""))
+)
